@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAE525BA1D08C696008647D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE525B91D08C696008647D2 /* AppDelegate.swift */; };
+		CAE525BC1D08C696008647D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE525BB1D08C696008647D2 /* ViewController.swift */; };
+		CAE525BF1D08C696008647D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE525BD1D08C696008647D2 /* Main.storyboard */; };
+		CAE525C11D08C696008647D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE525C01D08C696008647D2 /* Assets.xcassets */; };
+		CAE525C41D08C696008647D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE525C21D08C696008647D2 /* LaunchScreen.storyboard */; };
+		CAE525CF1D08C696008647D2 /* LoveWarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE525CE1D08C696008647D2 /* LoveWarTests.swift */; };
+		CAE525DA1D08C696008647D2 /* LoveWarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE525D91D08C696008647D2 /* LoveWarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAE525CB1D08C696008647D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE525AE1D08C696008647D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE525B51D08C696008647D2;
+			remoteInfo = LoveWar;
+		};
+		CAE525D61D08C696008647D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE525AE1D08C696008647D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE525B51D08C696008647D2;
+			remoteInfo = LoveWar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAE525B61D08C696008647D2 /* LoveWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE525B91D08C696008647D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAE525BB1D08C696008647D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAE525BE1D08C696008647D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAE525C01D08C696008647D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAE525C31D08C696008647D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAE525C51D08C696008647D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE525CA1D08C696008647D2 /* LoveWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE525CE1D08C696008647D2 /* LoveWarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveWarTests.swift; sourceTree = "<group>"; };
+		CAE525D01D08C696008647D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE525D51D08C696008647D2 /* LoveWarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveWarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE525D91D08C696008647D2 /* LoveWarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveWarUITests.swift; sourceTree = "<group>"; };
+		CAE525DB1D08C696008647D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE525B31D08C696008647D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE525C71D08C696008647D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE525D21D08C696008647D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE525AD1D08C696008647D2 = {
+			isa = PBXGroup;
+			children = (
+				CAE525B81D08C696008647D2 /* LoveWar */,
+				CAE525CD1D08C696008647D2 /* LoveWarTests */,
+				CAE525D81D08C696008647D2 /* LoveWarUITests */,
+				CAE525B71D08C696008647D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE525B71D08C696008647D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE525B61D08C696008647D2 /* LoveWar.app */,
+				CAE525CA1D08C696008647D2 /* LoveWarTests.xctest */,
+				CAE525D51D08C696008647D2 /* LoveWarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE525B81D08C696008647D2 /* LoveWar */ = {
+			isa = PBXGroup;
+			children = (
+				CAE525B91D08C696008647D2 /* AppDelegate.swift */,
+				CAE525BB1D08C696008647D2 /* ViewController.swift */,
+				CAE525BD1D08C696008647D2 /* Main.storyboard */,
+				CAE525C01D08C696008647D2 /* Assets.xcassets */,
+				CAE525C21D08C696008647D2 /* LaunchScreen.storyboard */,
+				CAE525C51D08C696008647D2 /* Info.plist */,
+			);
+			path = LoveWar;
+			sourceTree = "<group>";
+		};
+		CAE525CD1D08C696008647D2 /* LoveWarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE525CE1D08C696008647D2 /* LoveWarTests.swift */,
+				CAE525D01D08C696008647D2 /* Info.plist */,
+			);
+			path = LoveWarTests;
+			sourceTree = "<group>";
+		};
+		CAE525D81D08C696008647D2 /* LoveWarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE525D91D08C696008647D2 /* LoveWarUITests.swift */,
+				CAE525DB1D08C696008647D2 /* Info.plist */,
+			);
+			path = LoveWarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE525B51D08C696008647D2 /* LoveWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE525DE1D08C696008647D2 /* Build configuration list for PBXNativeTarget "LoveWar" */;
+			buildPhases = (
+				CAE525B21D08C696008647D2 /* Sources */,
+				CAE525B31D08C696008647D2 /* Frameworks */,
+				CAE525B41D08C696008647D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveWar;
+			productName = LoveWar;
+			productReference = CAE525B61D08C696008647D2 /* LoveWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAE525C91D08C696008647D2 /* LoveWarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE525E11D08C696008647D2 /* Build configuration list for PBXNativeTarget "LoveWarTests" */;
+			buildPhases = (
+				CAE525C61D08C696008647D2 /* Sources */,
+				CAE525C71D08C696008647D2 /* Frameworks */,
+				CAE525C81D08C696008647D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE525CC1D08C696008647D2 /* PBXTargetDependency */,
+			);
+			name = LoveWarTests;
+			productName = LoveWarTests;
+			productReference = CAE525CA1D08C696008647D2 /* LoveWarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAE525D41D08C696008647D2 /* LoveWarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE525E41D08C696008647D2 /* Build configuration list for PBXNativeTarget "LoveWarUITests" */;
+			buildPhases = (
+				CAE525D11D08C696008647D2 /* Sources */,
+				CAE525D21D08C696008647D2 /* Frameworks */,
+				CAE525D31D08C696008647D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE525D71D08C696008647D2 /* PBXTargetDependency */,
+			);
+			name = LoveWarUITests;
+			productName = LoveWarUITests;
+			productReference = CAE525D51D08C696008647D2 /* LoveWarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE525AE1D08C696008647D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = EngJason;
+				TargetAttributes = {
+					CAE525B51D08C696008647D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAE525C91D08C696008647D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAE525B51D08C696008647D2;
+					};
+					CAE525D41D08C696008647D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CAE525B51D08C696008647D2;
+					};
+				};
+			};
+			buildConfigurationList = CAE525B11D08C696008647D2 /* Build configuration list for PBXProject "LoveWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE525AD1D08C696008647D2;
+			productRefGroup = CAE525B71D08C696008647D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE525B51D08C696008647D2 /* LoveWar */,
+				CAE525C91D08C696008647D2 /* LoveWarTests */,
+				CAE525D41D08C696008647D2 /* LoveWarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE525B41D08C696008647D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE525C41D08C696008647D2 /* LaunchScreen.storyboard in Resources */,
+				CAE525C11D08C696008647D2 /* Assets.xcassets in Resources */,
+				CAE525BF1D08C696008647D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE525C81D08C696008647D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE525D31D08C696008647D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE525B21D08C696008647D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE525BC1D08C696008647D2 /* ViewController.swift in Sources */,
+				CAE525BA1D08C696008647D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE525C61D08C696008647D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE525CF1D08C696008647D2 /* LoveWarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE525D11D08C696008647D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE525DA1D08C696008647D2 /* LoveWarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAE525CC1D08C696008647D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE525B51D08C696008647D2 /* LoveWar */;
+			targetProxy = CAE525CB1D08C696008647D2 /* PBXContainerItemProxy */;
+		};
+		CAE525D71D08C696008647D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE525B51D08C696008647D2 /* LoveWar */;
+			targetProxy = CAE525D61D08C696008647D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAE525BD1D08C696008647D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE525BE1D08C696008647D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE525C21D08C696008647D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE525C31D08C696008647D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAE525DC1D08C696008647D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAE525DD1D08C696008647D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE525DF1D08C696008647D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAE525E01D08C696008647D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAE525E21D08C696008647D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveWar.app/LoveWar";
+			};
+			name = Debug;
+		};
+		CAE525E31D08C696008647D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveWar.app/LoveWar";
+			};
+			name = Release;
+		};
+		CAE525E51D08C696008647D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoveWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveWar;
+			};
+			name = Debug;
+		};
+		CAE525E61D08C696008647D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoveWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveWar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE525B11D08C696008647D2 /* Build configuration list for PBXProject "LoveWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE525DC1D08C696008647D2 /* Debug */,
+				CAE525DD1D08C696008647D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE525DE1D08C696008647D2 /* Build configuration list for PBXNativeTarget "LoveWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE525DF1D08C696008647D2 /* Debug */,
+				CAE525E01D08C696008647D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAE525E11D08C696008647D2 /* Build configuration list for PBXNativeTarget "LoveWarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE525E21D08C696008647D2 /* Debug */,
+				CAE525E31D08C696008647D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAE525E41D08C696008647D2 /* Build configuration list for PBXNativeTarget "LoveWarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE525E51D08C696008647D2 /* Debug */,
+				CAE525E61D08C696008647D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE525AE1D08C696008647D2 /* Project object */;
+}
