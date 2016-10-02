@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0AB2451D9F5008001CB039 /* MPCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0AB2441D9F5008001CB039 /* MPCHandler.swift */; };
+		CA1C870D1D35D0C4006CB40C /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1C870C1D35D0C4006CB40C /* Deck.swift */; };
+		CA1C870F1D35D0D0006CB40C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1C870E1D35D0D0006CB40C /* Card.swift */; };
+		CA620FD41D383B54003AE3F6 /* baron.png in Resources */ = {isa = PBXBuildFile; fileRef = CA620FCC1D383B54003AE3F6 /* baron.png */; };
+		CA620FD51D383B54003AE3F6 /* countess.png in Resources */ = {isa = PBXBuildFile; fileRef = CA620FCD1D383B54003AE3F6 /* countess.png */; };
+		CA620FD61D383B54003AE3F6 /* guard.png in Resources */ = {isa = PBXBuildFile; fileRef = CA620FCE1D383B54003AE3F6 /* guard.png */; };
+		CA620FD71D383B54003AE3F6 /* handmaid.png in Resources */ = {isa = PBXBuildFile; fileRef = CA620FCF1D383B54003AE3F6 /* handmaid.png */; };
+		CA620FD81D383B54003AE3F6 /* king.png in Resources */ = {isa = PBXBuildFile; fileRef = CA620FD01D383B54003AE3F6 /* king.png */; };
+		CA620FD91D383B54003AE3F6 /* priestess.png in Resources */ = {isa = PBXBuildFile; fileRef = CA620FD11D383B54003AE3F6 /* priestess.png */; };
+		CA620FDA1D383B54003AE3F6 /* prince.png in Resources */ = {isa = PBXBuildFile; fileRef = CA620FD21D383B54003AE3F6 /* prince.png */; };
+		CA620FDB1D383B54003AE3F6 /* princess.png in Resources */ = {isa = PBXBuildFile; fileRef = CA620FD31D383B54003AE3F6 /* princess.png */; };
+		CA9F08C71D3ED0A9001BF22D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F08C61D3ED0A9001BF22D /* Game.swift */; };
 		CAE525BA1D08C696008647D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE525B91D08C696008647D2 /* AppDelegate.swift */; };
-		CAE525BC1D08C696008647D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE525BB1D08C696008647D2 /* ViewController.swift */; };
+		CAE525BC1D08C696008647D2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE525BB1D08C696008647D2 /* MenuViewController.swift */; };
 		CAE525BF1D08C696008647D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE525BD1D08C696008647D2 /* Main.storyboard */; };
 		CAE525C11D08C696008647D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE525C01D08C696008647D2 /* Assets.xcassets */; };
 		CAE525C41D08C696008647D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE525C21D08C696008647D2 /* LaunchScreen.storyboard */; };
 		CAE525CF1D08C696008647D2 /* LoveWarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE525CE1D08C696008647D2 /* LoveWarTests.swift */; };
 		CAE525DA1D08C696008647D2 /* LoveWarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE525D91D08C696008647D2 /* LoveWarUITests.swift */; };
+		CAE526621D236017008647D2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE526611D236017008647D2 /* GameViewController.swift */; };
+		CAEBA6801D90E9E60002AB1C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEBA67F1D90E9E60002AB1C /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA0AB2441D9F5008001CB039 /* MPCHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCHandler.swift; sourceTree = "<group>"; };
+		CA1C870C1D35D0C4006CB40C /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		CA1C870E1D35D0D0006CB40C /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CA620FCC1D383B54003AE3F6 /* baron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baron.png; sourceTree = "<group>"; };
+		CA620FCD1D383B54003AE3F6 /* countess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countess.png; sourceTree = "<group>"; };
+		CA620FCE1D383B54003AE3F6 /* guard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guard.png; sourceTree = "<group>"; };
+		CA620FCF1D383B54003AE3F6 /* handmaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handmaid.png; sourceTree = "<group>"; };
+		CA620FD01D383B54003AE3F6 /* king.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king.png; sourceTree = "<group>"; };
+		CA620FD11D383B54003AE3F6 /* priestess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priestess.png; sourceTree = "<group>"; };
+		CA620FD21D383B54003AE3F6 /* prince.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prince.png; sourceTree = "<group>"; };
+		CA620FD31D383B54003AE3F6 /* princess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = princess.png; sourceTree = "<group>"; };
+		CA9F08C61D3ED0A9001BF22D /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		CAE525B61D08C696008647D2 /* LoveWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE525B91D08C696008647D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAE525BB1D08C696008647D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAE525BB1D08C696008647D2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CAE525BE1D08C696008647D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAE525C01D08C696008647D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAE525C31D08C696008647D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,8 @@
 		CAE525D51D08C696008647D2 /* LoveWarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveWarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE525D91D08C696008647D2 /* LoveWarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveWarUITests.swift; sourceTree = "<group>"; };
 		CAE525DB1D08C696008647D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE526611D236017008647D2 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CAEBA67F1D90E9E60002AB1C /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +102,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA620FCB1D383B54003AE3F6 /* LoveLetter_cards */ = {
+			isa = PBXGroup;
+			children = (
+				CA620FCE1D383B54003AE3F6 /* guard.png */,
+				CA620FD11D383B54003AE3F6 /* priestess.png */,
+				CA620FCC1D383B54003AE3F6 /* baron.png */,
+				CA620FCF1D383B54003AE3F6 /* handmaid.png */,
+				CA620FD21D383B54003AE3F6 /* prince.png */,
+				CA620FD01D383B54003AE3F6 /* king.png */,
+				CA620FCD1D383B54003AE3F6 /* countess.png */,
+				CA620FD31D383B54003AE3F6 /* princess.png */,
+			);
+			path = LoveLetter_cards;
+			sourceTree = "<group>";
+		};
 		CAE525AD1D08C696008647D2 = {
 			isa = PBXGroup;
 			children = (
@@ -98,9 +141,16 @@
 			isa = PBXGroup;
 			children = (
 				CAE525B91D08C696008647D2 /* AppDelegate.swift */,
-				CAE525BB1D08C696008647D2 /* ViewController.swift */,
+				CAE525BB1D08C696008647D2 /* MenuViewController.swift */,
+				CAE526611D236017008647D2 /* GameViewController.swift */,
+				CA9F08C61D3ED0A9001BF22D /* Game.swift */,
+				CA1C870C1D35D0C4006CB40C /* Deck.swift */,
+				CA1C870E1D35D0D0006CB40C /* Card.swift */,
+				CAEBA67F1D90E9E60002AB1C /* Player.swift */,
+				CA0AB2441D9F5008001CB039 /* MPCHandler.swift */,
 				CAE525BD1D08C696008647D2 /* Main.storyboard */,
 				CAE525C01D08C696008647D2 /* Assets.xcassets */,
+				CA620FCB1D383B54003AE3F6 /* LoveLetter_cards */,
 				CAE525C21D08C696008647D2 /* LaunchScreen.storyboard */,
 				CAE525C51D08C696008647D2 /* Info.plist */,
 			);
@@ -188,18 +238,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = EngJason;
 				TargetAttributes = {
 					CAE525B51D08C696008647D2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GE7Q79ULPB;
+						LastSwiftMigration = 0800;
 					};
 					CAE525C91D08C696008647D2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = CAE525B51D08C696008647D2;
 					};
 					CAE525D41D08C696008647D2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = CAE525B51D08C696008647D2;
 					};
 				};
@@ -229,9 +283,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA620FD51D383B54003AE3F6 /* countess.png in Resources */,
 				CAE525C41D08C696008647D2 /* LaunchScreen.storyboard in Resources */,
+				CA620FDA1D383B54003AE3F6 /* prince.png in Resources */,
 				CAE525C11D08C696008647D2 /* Assets.xcassets in Resources */,
+				CA620FD61D383B54003AE3F6 /* guard.png in Resources */,
+				CA620FD81D383B54003AE3F6 /* king.png in Resources */,
+				CA620FD71D383B54003AE3F6 /* handmaid.png in Resources */,
+				CA620FD41D383B54003AE3F6 /* baron.png in Resources */,
 				CAE525BF1D08C696008647D2 /* Main.storyboard in Resources */,
+				CA620FD91D383B54003AE3F6 /* priestess.png in Resources */,
+				CA620FDB1D383B54003AE3F6 /* princess.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE525BC1D08C696008647D2 /* ViewController.swift in Sources */,
+				CA1C870D1D35D0C4006CB40C /* Deck.swift in Sources */,
+				CA0AB2451D9F5008001CB039 /* MPCHandler.swift in Sources */,
+				CA9F08C71D3ED0A9001BF22D /* Game.swift in Sources */,
+				CAE525BC1D08C696008647D2 /* MenuViewController.swift in Sources */,
+				CA1C870F1D35D0D0006CB40C /* Card.swift in Sources */,
+				CAEBA6801D90E9E60002AB1C /* Player.swift in Sources */,
+				CAE526621D236017008647D2 /* GameViewController.swift in Sources */,
 				CAE525BA1D08C696008647D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,8 +394,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -372,8 +442,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -392,6 +464,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -401,10 +474,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GE7Q79ULPB;
 				INFOPLIST_FILE = LoveWar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -412,10 +487,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GE7Q79ULPB;
 				INFOPLIST_FILE = LoveWar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +504,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveWar.app/LoveWar";
 			};
 			name = Debug;
@@ -439,6 +517,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveWar.app/LoveWar";
 			};
 			name = Release;
@@ -450,6 +529,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LoveWar;
 			};
 			name = Debug;
@@ -461,6 +541,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.engjason.LoveWarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = LoveWar;
 			};
 			name = Release;
@@ -484,6 +565,7 @@
 				CAE525E01D08C696008647D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAE525E11D08C696008647D2 /* Build configuration list for PBXNativeTarget "LoveWarTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +574,7 @@
 				CAE525E31D08C696008647D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAE525E41D08C696008647D2 /* Build configuration list for PBXNativeTarget "LoveWarUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +583,7 @@
 				CAE525E61D08C696008647D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

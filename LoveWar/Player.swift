@@ -9,5 +9,9 @@
 import UIKit
 
 class Player: NSObject {
-
+    var currentCards: [Card] = []
+    
+    init(currentCards: [Card]) {
+        self.currentCards = currentCards
+    }
 }
